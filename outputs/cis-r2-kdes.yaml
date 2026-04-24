@@ -1,0 +1,82 @@
+element1:
+- requirements:
+  - description: 'Please see the below link for our current terms of use: https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use'
+  - details: For information on referencing and/or citing CIS Benchmarks in 3rd party
+      documentation (including using portions of Benchmark Recommendations)
+  - contact: CIS Legal (CISLegal@cisecurity.org)
+  - action: Request guidance on copyright usage.
+  topic: Terms of Use
+- requirements:
+  - description: It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF,
+      etc.) on a 3rd party (non-CIS owned) site.
+  - details: CIS Benchmarks are proprietary and protected by intellectual property.
+  - action: Ensure all CIS Benchmark materials are hosted and managed by CIS.
+  topic: CIS Benchmarks
+element2:
+- description: Analyze the provided document for security-related information.
+  step: Read the document.
+- description: Extract key security concerns and areas of focus from the document.
+  step: Identify security topics.
+- description: Generate a detailed list of security requirements based on the identified
+    topics.
+  step: List requirements for each topic.
+- description: Present the requirements in a structured YAML format.
+  step: Format as YAML.
+element3:
+- step: Read the document.
+- step: Identify security topics.
+  topics:
+  - Exceptions
+  - Remediation
+  - Summary
+  - Target Technology Details
+  - Intended Audience
+  - Consensus Guidance
+- requirements:
+  - requirements:
+    - Define clear exception handling procedures and escalation paths.
+    - Document the process for investigating and resolving exceptions.
+    - Establish thresholds for exception reporting and analysis.
+    topic: Exceptions
+  - requirements:
+    - Develop a remediation plan for identified vulnerabilities.
+    - Define roles and responsibilities for remediation activities.
+    - Establish timelines for remediation completion.
+    topic: Remediation
+  - requirements:
+    - Create a high-level overview of security controls and policies.
+    - Document key security metrics and performance indicators.
+    topic: Summary
+  - requirements:
+    - Specify supported operating systems, browsers, and devices.
+    - Outline integration requirements with existing systems.
+    topic: Target Technology Details
+  - requirements:
+    - null
+    topic: Intended Audience
+  step: List requirements for each topic.
+element4:
+- description: Initial review of the document to understand its content and context.
+  step: Read the document
+- description: Analyze the document to identify key areas related to security, such
+    as consensus guidance, typographical conventions, recommendation definitions,
+    title, assessment status, and automated processes.
+  step: Identify security topics
+- description: For each identified security topic, create a detailed list of requirements.  These
+    requirements should be specific, measurable, achievable, relevant, and time-bound
+    (SMART).
+  step: List requirements for each topic
+- description: Present the requirements in a structured YAML format.
+  step: Format as YAML
+element5:
+- description: Analyze the provided document to understand its content and context.
+  step: Read the document
+- description: Extract key security concerns, vulnerabilities, and requirements from
+    the document.
+  step: Identify security topics
+- description: Generate specific, measurable, achievable, relevant, and time-bound
+    (SMART) requirements for each identified security topic.
+  step: List requirements for each topic
+- description: Present the requirements in a structured YAML format for easy parsing
+    and management.
+  step: Format as YAML

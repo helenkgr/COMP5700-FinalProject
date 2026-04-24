@@ -1,0 +1,44 @@
+element1:
+  name: unparsed_output
+  requirements:
+  - "security_requirements:\n  - topic: Terms of Use\n    requirements:\n      - description:\
+    \ \"Users must adhere to the terms of use provided by CIS.\"\n        details:\n\
+    \          - \"Referencing and citing CIS "
+element2:
+- step: Read the document.
+- step: Identify security topics.
+- step: List requirements for each topic.
+- step: Format as YAML.
+element3:
+- description: Initial review of the document to understand its content and scope.
+  step: Read the document.
+- description: Analyze the document for potential security concerns and areas requiring
+    attention.
+  step: Identify security topics.
+- description: Create a detailed list of requirements related to the identified security
+    topics.
+  step: List requirements for each topic.
+- description: Present the requirements in a structured YAML format.
+  step: Format as YAML.
+element4:
+- description: Initial assessment of the document's content.
+  step: Read the document
+- description: Analyze the document's content to determine key security concerns.
+  step: Identify security topics
+- description: Create a detailed list of security requirements derived from the identified
+    topics.
+  step: List requirements for each topic
+- description: Present the requirements in a structured YAML format.
+  step: Format as YAML
+element5:
+- description: Analyze the provided document to understand its content and key information.
+  step: Read the document.
+- description: Extract potential security risks, vulnerabilities, and areas requiring
+    protection based on the document's content.
+  step: Identify security topics.
+- description: Create a detailed list of security requirements, specifying what needs
+    to be implemented to mitigate identified risks and address the extracted topics.
+  step: List requirements for each topic.
+- description: Present the requirements in a structured YAML format, ensuring clarity,
+    consistency, and machine readability.
+  step: Format as YAML.

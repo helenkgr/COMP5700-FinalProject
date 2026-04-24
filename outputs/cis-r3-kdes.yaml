@@ -1,0 +1,38 @@
+element1:
+  name: unparsed_output
+  requirements:
+  - "security_requirements:\n  - topic: Terms of Use\n    requirements:\n      - description:\
+    \ \"Please see the below link for our current terms of use: https://www.cisecurity.org/cis-securesuite/cis-securesuit"
+element2:
+  name: unparsed_output
+  requirements:
+  - "Step 1: Read the document.\nStep 2: Identify security topics.\nStep 3: List requirements\
+    \ for each topic.\nStep 4: Format as YAML.\n\n---\nsecurity_requirements:\n  -\
+    \ topic: Data Protection\n    requirements:\n"
+element3:
+- description: Initial reading of the document to understand its content.
+  step: Read the document.
+- description: Analyze the document to determine the key security concerns and areas
+    requiring attention.
+  step: Identify security topics.
+- description: Extract specific requirements related to the identified security topics.  This
+    will be a detailed breakdown of the needs.
+  step: List requirements for each topic.
+- description: Convert the extracted requirements into a structured YAML format.
+  step: Format as YAML.
+element4:
+  name: unparsed_output
+  requirements:
+  - "requirements:\n  - topic: Consensus Guidance\n    requirements:\n      - \"The\
+    \ document should clearly define Consensus Guidance and its purpose.\"\n     \
+    \ - \"The document should provide examples of how Cons"
+element5:
+- description: Analyze the provided document for security-related information.
+  step: Read the document
+- description: Extract key security concepts and concerns from the document.
+  step: Identify security topics
+- description: Document specific security requirements derived from the identified
+    topics.
+  step: List requirements for each topic
+- description: Present the requirements in a structured YAML format.
+  step: Format as YAML

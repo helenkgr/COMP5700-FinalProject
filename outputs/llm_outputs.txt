@@ -1,0 +1,2725 @@
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.2.0 - 11-23-2022 
+ 
+ 
+Page 1 
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+Page 2 
+Table of Contents 
+Terms of Use .................................................................................................................. 1 
+Table of Contents ........................................................................................................... 2 
+Overview ......................................................................................................................... 5 
+Intended Audience ...................................................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: CIS Amazon Elastic
+  requirements:
+    - CIS
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+.................................................. 5 
+Consensus Guidance .............................................................................................................. 6 
+Typographical Conventions .................................................................................................... 7 
+Recommendation Definitions ....................................................................................... 8 
+Title ............................................................................................................................................ 8 
+Assessment Status .................................................................................................................. 8 
+Automated .....................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Consensus Guidance
+  requirements:
+    - Consistent terminology across documents
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+.......................................................................................................................... 8 
+Manual .................................................................................................................................................... 8 
+Profile ........................................................................................................................................ 8 
+Description ............................................................................................................................... 8 
+Rationale Statement ................................................................................................................. 8 
+Impact Statement ......................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Manual
+  requirements:
+    - No requirements defined for Manual.
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+................................................................................................. 9 
+Audit Procedure ....................................................................................................................... 9 
+Remediation Procedure ........................................................................................................... 9 
+Default Value ............................................................................................................................ 9 
+References ................................................................................................................................ 9 
+CIS Critical Security Controls® (CIS Controls®) .................................................................... 9 
+Additional Information
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: Audit Procedure
+  requirements:
+    - "The audit procedure must systematically verify compliance with security controls."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+........................ 9 
+Additional Information ............................................................................................................. 9 
+Profile Definitions .................................................................................................................. 10 
+Acknowledgements ............................................................................................................... 11 
+Recommendations ....................................................................................................... 12 
+1 Control Plane Components ................................................................................................ 12 
+2 Control Plane Configuration ..................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: User ID
+  requirements:
+    - <requirement 1>
+
+element2:
+  name: Login Credentials
+  requirements:
+    - <requirement 2>
+
+element3:
+  name: Email Address
+  requirements:
+    - <requirement 3>
+
+element4:
+  name: IP Address
+  requirements:
+    - <requirement 4>
+
+element5:
+  name: Device ID
+  requirements:
+    - <requirement 5>
+
+element6:
+  name: Session ID
+  requirements:
+    - <requirement 6>
+
+element7:
+  name: Timestamp
+  requirements:
+    - <requirement 7>
+
+element8:
+  name: Location Data
+  requirements:
+    - <requirement 8>
+
+element9:
+  name: Password Hash
+  requirements:
+    - <requirement 9>
+
+element10:
+  name: Encryption Key
+  requirements:
+    - <requirement 10>
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.2.0 - 11-23-2022 
+ 
+ 
+Page 1 
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+Page 2 
+Table of Contents 
+Terms of Use .................................................................................................................. 1 
+Table of Contents ........................................................................................................... 2 
+Overview ......................................................................................................................... 5 
+Intended Audience ...................................................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: CIS Amazon Elastic
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+.................................................. 5 
+Consensus Guidance .............................................................................................................. 6 
+Typographical Conventions .................................................................................................... 7 
+Recommendation Definitions ....................................................................................... 8 
+Title ............................................................................................................................................ 8 
+Assessment Status .................................................................................................................. 8 
+Automated .....................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+KDE: User Authentication
+requirements:
+  - Use MFA
+  - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+.......................................................................................................................... 8 
+Manual .................................................................................................................................................... 8 
+Profile ........................................................................................................................................ 8 
+Description ............................................................................................................................... 8 
+Rationale Statement ................................................................................................................. 8 
+Impact Statement ......................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Profile
+  requirements:
+    - Data validation
+    - Secure storage
+    - Audit logging
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+................................................................................................. 9 
+Audit Procedure ....................................................................................................................... 9 
+Remediation Procedure ........................................................................................................... 9 
+Default Value ............................................................................................................................ 9 
+References ................................................................................................................................ 9 
+CIS Critical Security Controls® (CIS Controls®) .................................................................... 9 
+Additional Information
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+KDE1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 minutes
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+........................ 9 
+Additional Information ............................................................................................................. 9 
+Profile Definitions .................................................................................................................. 10 
+Acknowledgements ............................................................................................................... 11 
+Recommendations ....................................................................................................... 12 
+1 Control Plane Components ................................................................................................ 12 
+2 Control Plane Configuration ..................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.2.0 - 11-23-2022 
+ 
+ 
+Page 1 
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+Page 2 
+Table of Contents 
+Terms of Use .................................................................................................................. 1 
+Table of Contents ........................................................................................................... 2 
+Overview ......................................................................................................................... 5 
+Intended Audience ...................................................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+security_requirements:
+  - topic: CIS Security Suite Membership Terms of Use
+    requirements:
+      - description: "The CIS Security Suite membership terms of use must be adhered to."
+        details: "Users must agree to the terms of service, including data privacy and security policies."
+  - topic: EKS Service Security
+    requirements:
+      - description: "The EKS service must be secured against unauthorized access and malicious activity."
+        details: "Implement network segmentation, role-based access control (RBAC), and regular security audits."
+      - topic: Kubernetes Benchmark
+        requirements:
+          - description: "The Kubernetes Benchmark must be implemented with security best practices."
+          - details: "This includes secure container image scanning, vulnerability management, and network policies."
+  - topic: v1.2.0 - 11-23-2022
+    requirements:
+      - description: "The release version v1.2.0 must be thoroughly reviewed for security vulnerabilities."
+      - details: "Conduct security testing, including penetration testing and static/dynamic analysis, to identify and remediate any issues."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+.................................................. 5 
+Consensus Guidance .............................................................................................................. 6 
+Typographical Conventions .................................................................................................... 7 
+Recommendation Definitions ....................................................................................... 8 
+Title ............................................................................................................................................ 8 
+Assessment Status .................................................................................................................. 8 
+Automated .....................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+consensustguidance:
+  requirements:
+    - topic: Typographical Conventions
+      requirements:
+        - Description: Ensure consistent use of fonts, sizes, and spacing.
+          Priority: High
+          Details:  Maintain a standardized typographic style for all documents.
+    - topic: Recommendation Definitions
+      requirements:
+        - Description: Clearly define the meaning and scope of each recommendation.
+          Priority: Medium
+          Details:  Ensure recommendations are unambiguous and easily understood.
+
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+.......................................................................................................................... 8 
+Manual .................................................................................................................................................... 8 
+Profile ........................................................................................................................................ 8 
+Description ............................................................................................................................... 8 
+Rationale Statement ................................................................................................................. 8 
+Impact Statement ......................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: Read the document.
+  - step: Identify security topics.
+    topics:
+      - Manual
+      - Profile
+      - Description
+      - Rationale Statement
+      - Impact Statement
+  - step: List requirements for each topic.
+    requirements:
+      - Manual: "The manual must accurately and consistently reflect current security policies and procedures."
+      - Profile: "The profile must securely store and manage user data, adhering to privacy regulations."
+      - Description: "The description must clearly communicate the purpose and scope of the system, including security considerations."
+      - Rationale Statement: "The rationale statement should justify the need for specific security measures and demonstrate compliance with relevant standards."
+      - Impact Statement: "Failure to address the impact of security vulnerabilities could result in data loss, system disruption, and reputational damage."
+  - step: Format as YAML.
+    output:
+      type: YAML
+      content: |
+        steps:
+          - step: Read the document.
+          - step: Identify security topics.
+            topics:
+              - Manual
+              - Profile
+              - Description
+              - Rationale Statement
+              - Impact Statement
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+................................................................................................. 9 
+Audit Procedure ....................................................................................................................... 9 
+Remediation Procedure ........................................................................................................... 9 
+Default Value ............................................................................................................................ 9 
+References ................................................................................................................................ 9 
+CIS Critical Security Controls® (CIS Controls®) .................................................................... 9 
+Additional Information
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+audit_procedure:
+  requirements:
+    - description: "Regularly review and update audit procedures to reflect changes in business processes and security risks."
+      details: "Ensure procedures are comprehensive, measurable, and aligned with organizational objectives."
+    - description: "Document all audit findings and remediation actions."
+      details: "Maintain a centralized repository of audit results for tracking and analysis."
+    - description: "Establish a process for ongoing monitoring of audit findings."
+      details: "Implement automated alerts for critical findings."
+
+remediation_procedure:
+  requirements:
+    - description: "Develop and implement remediation plans for identified vulnerabilities."
+      details: "Prioritize remediation based on risk level and impact."
+    - description: "Track the progress of remediation efforts and ensure timely completion."
+      details: "Assign responsibility for remediation and monitor performance."
+    - description: "Document remediation steps taken and results achieved."
+      details: "Maintain a record of corrective actions taken to address vulnerabilities."
+
+default_value:
+  requirements:
+    - description: "Define and enforce consistent default values for critical system settings."
+      details: "Minimize the potential for unintended consequences when default values are used."
+    
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+........................ 9 
+Additional Information ............................................................................................................. 9 
+Profile Definitions .................................................................................................................. 10 
+Acknowledgements ............................................................................................................... 11 
+Recommendations ....................................................................................................... 12 
+1 Control Plane Components ................................................................................................ 12 
+2 Control Plane Configuration ..................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+# Security Requirements Document - Initial Analysis
+
+# Step 1: Read the document.
+# Step 2: Identify security topics.
+# Step 3: List requirements for each topic.
+# Step 4: Format as YAML.
+
+security_requirements:
+  - topic: Profile Definitions
+    requirements:
+      - Description: Ensure accurate and consistent profile definitions across the system.
+        Details:  Verify the definitions are validated, documented, and easily updated.
+        Priority: High
+  - topic: Acknowledgements
+    requirements:
+      - Description: Document all stakeholders involved in the system's development and deployment.
+        Details:  Include contact information and roles.
+        Priority: Medium
+  - topic: Recommendations
+    requirements:
+      - Description: Provide recommendations for security enhancements and best practices.
+      - Details:  Focus on areas like vulnerability management, threat modeling, and security policies.
+      - Priority: High
+  - topic: Control Plane Components
+    requirements:
+      - control_plane_components:
+          - Control Plane Configuration:  The system must allow authorized users to configure the control plane components.
+            Details:  Define access controls and audit trails for configuration changes
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+ 
+Internal Only - General
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.6.0 - 12-23-2024 
+ 
+ 
+Page 1 
+Internal Only - General
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(CISLegal@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General
+Table of Contents 
+Terms of Use ................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: CIS Amazon Elastic
+  requirements:
+    - "CIS Amazon Elastic"
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+....................................................................................... 1 
+Table of Contents ............................................................................................................. 2 
+Overview ............................................................................................................................ 5 
+Important Usage Information .................................................................................................... 5 
+Key Stakeholders.................................................................................................................................... 5 
+Apply the Correct Version of a Benchmark ......................................................................................... 6 
+Exceptions ............
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: Benchmark Version Identifier
+  requirements:
+    - "Unique identifier for each version of the benchmark."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+....................... 6 
+Exceptions ............................................................................................................................................... 6 
+Remediation ............................................................................................................................................ 7 
+Summary.................................................................................................................................................. 7 
+Target Technology Details ........................................................................................................ 8 
+Intended Audience ..................................................................................................................... 8 
+Consensus Guidance ..........
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: User Credentials
+  requirements:
+    - Ensure secure storage and transmission of user credentials.
+  
+element2:
+  name: System Logs
+  requirements:
+    - Collect and analyze system logs for security events.
+  
+element3:
+  name: Audit Trail
+  requirements:
+    - Maintain a comprehensive audit trail of all system activity.
+  
+element4:
+  name: Sensitive Data
+  requirements:
+    - Protect sensitive data (e.g., PII, financial data) through encryption and access controls.
+  
+element5:
+  name: Authentication Mechanisms
+  requirements:
+    - Implement robust authentication mechanisms (e.g., multi-factor authentication).
+  
+element6:
+  name: Authorization Controls
+  requirements:
+    - Define and enforce granular authorization controls.
+  
+element7:
+  name: Network Security
+  requirements:
+    - Secure network communications using firewalls and intrusion detection systems.
+  
+element8:
+  name: Vulnerability Management
+  requirements:
+    - Regularly scan for and remediate vulnerabilities.
+  
+element9:
+  name: Incident Response Plan
+  requirements:
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+................. 8 
+Consensus Guidance ................................................................................................................. 9 
+Typographical Conventions .................................................................................................... 10 
+Recommendation Definitions ....................................................................................... 11 
+Title ............................................................................................................................................. 11 
+Assessment Status .................................................................................................................. 11 
+Automated ..............................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Consensus Guidance
+  requirements:
+    - Consistent terminology across documents.
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+................................................................................................. 11 
+Manual.................................................................................................................................................... 11 
+Profile ......................................................................................................................................... 11 
+Description ................................................................................................................................ 11 
+Rationale Statement ................................................................................................................. 11 
+Impact Statement..........................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Manual
+  requirements:
+    - "The manual must accurately reflect the operational procedures."
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+ 
+Internal Only - General
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.6.0 - 12-23-2024 
+ 
+ 
+Page 1 
+Internal Only - General
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(CISLegal@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General
+Table of Contents 
+Terms of Use ................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: Terms of Use
+  requirements:
+    - Host CIS Benchmarks only on CIS-owned sites
+    - Do not host CIS Benchmarks in 3rd party formats (PDF, etc.)
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+....................................................................................... 1 
+Table of Contents ............................................................................................................. 2 
+Overview ............................................................................................................................ 5 
+Important Usage Information .................................................................................................... 5 
+Key Stakeholders.................................................................................................................................... 5 
+Apply the Correct Version of a Benchmark ......................................................................................... 6 
+Exceptions ............
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+....................... 6 
+Exceptions ............................................................................................................................................... 6 
+Remediation ............................................................................................................................................ 7 
+Summary.................................................................................................................................................. 7 
+Target Technology Details ........................................................................................................ 8 
+Intended Audience ..................................................................................................................... 8 
+Consensus Guidance ..........
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+................. 8 
+Consensus Guidance ................................................................................................................. 9 
+Typographical Conventions .................................................................................................... 10 
+Recommendation Definitions ....................................................................................... 11 
+Title ............................................................................................................................................. 11 
+Assessment Status .................................................................................................................. 11 
+Automated ..............................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+................................................................................................. 11 
+Manual.................................................................................................................................................... 11 
+Profile ......................................................................................................................................... 11 
+Description ................................................................................................................................ 11 
+Rationale Statement ................................................................................................................. 11 
+Impact Statement..........................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+ 
+Internal Only - General
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.6.0 - 12-23-2024 
+ 
+ 
+Page 1 
+Internal Only - General
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(CISLegal@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General
+Table of Contents 
+Terms of Use ................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+security_requirements:
+  - topic: Terms of Use
+    requirements:
+      - description: "Please see the below link for our current terms of use: https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use"
+      - details: "For information on referencing and/or citing CIS Benchmarks in 3rd party documentation (including using portions of Benchmark Recommendations)"
+      - contact: "CIS Legal (CISLegal@cisecurity.org)"
+      - action: "Request guidance on copyright usage."
+  - topic: CIS Benchmarks
+    requirements:
+      - description: "It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) on a 3rd party (non-CIS owned) site."
+      - details: "CIS Benchmarks are proprietary and protected by intellectual property."
+      - action: "Ensure all CIS Benchmark materials are hosted and managed by CIS."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+....................................................................................... 1 
+Table of Contents ............................................................................................................. 2 
+Overview ............................................................................................................................ 5 
+Important Usage Information .................................................................................................... 5 
+Key Stakeholders.................................................................................................................................... 5 
+Apply the Correct Version of a Benchmark ......................................................................................... 6 
+Exceptions ............
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document."
+    description: "Analyze the provided document for security-related information."
+  - step: "Identify security topics."
+    description: "Extract key security concerns and areas of focus from the document."
+  - step: "List requirements for each topic."
+    description: "Generate a detailed list of security requirements based on the identified topics."
+  - step: "Format as YAML."
+    description: "Present the requirements in a structured YAML format."
+
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+....................... 6 
+Exceptions ............................................................................................................................................... 6 
+Remediation ............................................................................................................................................ 7 
+Summary.................................................................................................................................................. 7 
+Target Technology Details ........................................................................................................ 8 
+Intended Audience ..................................................................................................................... 8 
+Consensus Guidance ..........
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: Read the document.
+  - step: Identify security topics.
+    topics:
+      - Exceptions
+      - Remediation
+      - Summary
+      - Target Technology Details
+      - Intended Audience
+      - Consensus Guidance
+  - step: List requirements for each topic.
+    requirements:
+      - topic: Exceptions
+        requirements:
+          - "Define clear exception handling procedures and escalation paths."
+          - "Document the process for investigating and resolving exceptions."
+          - "Establish thresholds for exception reporting and analysis."
+      - topic: Remediation
+        requirements:
+          - "Develop a remediation plan for identified vulnerabilities."
+          - "Define roles and responsibilities for remediation activities."
+          - "Establish timelines for remediation completion."
+      - topic: Summary
+        requirements:
+          - "Create a high-level overview of security controls and policies."
+          - "Document key security metrics and performance indicators."
+      - topic: Target Technology Details
+        requirements:
+          - "Specify supported operating systems, browsers, and devices."
+          - "Outline integration requirements with existing systems."
+      - topic: Intended Audience
+        requirements:
+          -
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+................. 8 
+Consensus Guidance ................................................................................................................. 9 
+Typographical Conventions .................................................................................................... 10 
+Recommendation Definitions ....................................................................................... 11 
+Title ............................................................................................................................................. 11 
+Assessment Status .................................................................................................................. 11 
+Automated ..............................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document"
+    description: "Initial review of the document to understand its content and context."
+  - step: "Identify security topics"
+    description: "Analyze the document to identify key areas related to security, such as consensus guidance, typographical conventions, recommendation definitions, title, assessment status, and automated processes."
+  - step: "List requirements for each topic"
+    description: "For each identified security topic, create a detailed list of requirements.  These requirements should be specific, measurable, achievable, relevant, and time-bound (SMART)."
+  - step: "Format as YAML"
+    description: "Present the requirements in a structured YAML format."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+................................................................................................. 11 
+Manual.................................................................................................................................................... 11 
+Profile ......................................................................................................................................... 11 
+Description ................................................................................................................................ 11 
+Rationale Statement ................................................................................................................. 11 
+Impact Statement..........................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document"
+    description: "Analyze the provided document to understand its content and context."
+  - step: "Identify security topics"
+    description: "Extract key security concerns, vulnerabilities, and requirements from the document."
+  - step: "List requirements for each topic"
+    description: "Generate specific, measurable, achievable, relevant, and time-bound (SMART) requirements for each identified security topic."
+  - step: "Format as YAML"
+    description: "Present the requirements in a structured YAML format for easy parsing and management."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+ 
+Internal Only - General
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.7.0 - 05-30-2025 
+ 
+ 
+Page 1 
+Internal Only - General
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(legalnotices@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General
+Table of Contents 
+Terms of Use ............................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: CIS Amazon Elastic
+  requirements:
+    - "CIS Amazon Elastic Service"
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+........................................................................................... 1 
+Table of Contents ............................................................................................................. 2 
+Overview ............................................................................................................................ 5 
+Important Usage Information .................................................................................................... 5 
+Key Stakeholders.................................................................................................................................... 5 
+Apply the Correct Version of a Benchmark ......................................................................................... 6 
+Exceptions ........
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User ID
+  requirements:
+    - "Unique and secure identifier for each user."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+........................... 6 
+Exceptions ............................................................................................................................................... 6 
+Remediation ............................................................................................................................................ 7 
+Summary.................................................................................................................................................. 7 
+Target Technology Details ........................................................................................................ 8 
+Intended Audience ..................................................................................................................... 8 
+Consensus Guidance ......
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: User Credentials
+  requirements:
+    - Access to user accounts
+    - Password management
+    - Multi-factor authentication
+
+element2:
+  name: Financial Data
+  requirements:
+    - Secure storage of financial information
+    - Compliance with financial regulations
+    - Audit trails of financial transactions
+
+element3:
+  name: Customer Personal Data
+  requirements:
+    - Protection of Personally Identifiable Information (PII)
+    - Compliance with data privacy regulations (e.g., GDPR, CCPA)
+    - Data minimization principles
+
+element4:
+  name: System Logs
+  requirements:
+    - Comprehensive logging of system events
+    - Audit trails for security incidents
+    - Secure retention of log data
+
+element5:
+  name: Device Identifiers
+  requirements:
+    - Unique identification of devices
+    - Device integrity monitoring
+    - Secure communication between devices
+
+element6:
+  name: Configuration Data
+  requirements:
+    - Secure configuration management
+    - Protection of sensitive configuration settings
+    - Role-based access control for configuration data
+
+element7:
+  name: API Keys
+  requirements:
+    - Secure storage and management of API
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+..................... 8 
+Consensus Guidance ................................................................................................................. 9 
+Typographical Conventions .................................................................................................... 10 
+Recommendation Definitions ....................................................................................... 11 
+Title ............................................................................................................................................. 11 
+Assessment Status .................................................................................................................. 11 
+Automated ..........................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Consensus Guidance
+  requirements:
+    - Consistent terminology across documents
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+..................................................................................................... 11 
+Manual.................................................................................................................................................... 11 
+Profile ......................................................................................................................................... 11 
+Description ................................................................................................................................ 11 
+Rationale Statement ................................................................................................................. 11 
+Impact Statement......................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Manual
+  requirements:
+    - "The manual must be reviewed and approved by a designated authority."
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+ 
+Internal Only - General
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.7.0 - 05-30-2025 
+ 
+ 
+Page 1 
+Internal Only - General
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(legalnotices@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General
+Table of Contents 
+Terms of Use ............................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: Terms of Use
+  requirements:
+    - Host CIS Benchmarks only on CIS-owned sites
+    - Do not host CIS Benchmarks in 3rd party formats (PDF, etc.)
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+........................................................................................... 1 
+Table of Contents ............................................................................................................. 2 
+Overview ............................................................................................................................ 5 
+Important Usage Information .................................................................................................... 5 
+Key Stakeholders.................................................................................................................................... 5 
+Apply the Correct Version of a Benchmark ......................................................................................... 6 
+Exceptions ........
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+........................... 6 
+Exceptions ............................................................................................................................................... 6 
+Remediation ............................................................................................................................................ 7 
+Summary.................................................................................................................................................. 7 
+Target Technology Details ........................................................................................................ 8 
+Intended Audience ..................................................................................................................... 8 
+Consensus Guidance ......
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+..................... 8 
+Consensus Guidance ................................................................................................................. 9 
+Typographical Conventions .................................................................................................... 10 
+Recommendation Definitions ....................................................................................... 11 
+Title ............................................................................................................................................. 11 
+Assessment Status .................................................................................................................. 11 
+Automated ..........................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+..................................................................................................... 11 
+Manual.................................................................................................................................................... 11 
+Profile ......................................................................................................................................... 11 
+Description ................................................................................................................................ 11 
+Rationale Statement ................................................................................................................. 11 
+Impact Statement......................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+ 
+Internal Only - General
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.7.0 - 05-30-2025 
+ 
+ 
+Page 1 
+Internal Only - General
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(legalnotices@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General
+Table of Contents 
+Terms of Use ............................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+security_requirements:
+  - topic: Terms of Use
+    requirements:
+      - description: "Please see the below link for our current terms of use: https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use"
+      - details: "For information on referencing and/or citing CIS Benchmarks in 3rd party documentation (including using portions of Benchmark Recommendations)"
+      - contact: "CIS Legal (legalnotices@cisecurity.org)"
+  - topic: CIS Benchmarks
+    requirements:
+      - description: "It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) on a 3rd party (non-CIS owned) site."
+      - details: "CIS Benchmarks are proprietary and protected by CIS."
+  - topic: Kubernetes Service (EKS)
+    requirements:
+      - description: "Ensure the EKS service is secure and protected against unauthorized access."
+      - details: "Implement robust authentication and authorization mechanisms for EKS access."
+      - verification: "Regularly audit EKS security configurations."
+  - topic: Benchmark
+    requirements
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+........................................................................................... 1 
+Table of Contents ............................................................................................................. 2 
+Overview ............................................................................................................................ 5 
+Important Usage Information .................................................................................................... 5 
+Key Stakeholders.................................................................................................................................... 5 
+Apply the Correct Version of a Benchmark ......................................................................................... 6 
+Exceptions ........
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+---
+security_requirements:
+  - topic: Data Protection
+    requirements:
+      - Description: "Protect sensitive data from unauthorized access, use, disclosure, disruption, modification, or destruction."
+      - Specificity: "Implement encryption at rest and in transit for all sensitive data.  Establish access controls based on the principle of least privilege."
+      - Verification: "Regular audits to ensure data security controls are effective."
+  - topic: Authentication & Authorization
+    requirements:
+      - Description: "Verify the identity of users and authorize their access to resources."
+      - Specificity: "Implement multi-factor authentication (MFA) for all users.  Establish role-based access control (RBAC) to limit user permissions."
+      - Verification: "Regular access reviews and audits to ensure user roles and permissions are accurate."
+  - topic:  Access Control
+    requirements:
+      - Description: "Restrict access to system resources based on established policies and roles."
+      - Specificity: "Implement granular access control
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+........................... 6 
+Exceptions ............................................................................................................................................... 6 
+Remediation ............................................................................................................................................ 7 
+Summary.................................................................................................................................................. 7 
+Target Technology Details ........................................................................................................ 8 
+Intended Audience ..................................................................................................................... 8 
+Consensus Guidance ......
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: Read the document.
+    description: "Initial reading of the document to understand its content."
+  - step: Identify security topics.
+    description: "Analyze the document to determine the key security concerns and areas requiring attention."
+  - step: List requirements for each topic.
+    description: "Extract specific requirements related to the identified security topics.  This will be a detailed breakdown of the needs."
+  - step: Format as YAML.
+    description: "Convert the extracted requirements into a structured YAML format."
+```
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+..................... 8 
+Consensus Guidance ................................................................................................................. 9 
+Typographical Conventions .................................................................................................... 10 
+Recommendation Definitions ....................................................................................... 11 
+Title ............................................................................................................................................. 11 
+Assessment Status .................................................................................................................. 11 
+Automated ..........................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+requirements:
+  - topic: Consensus Guidance
+    requirements:
+      - "The document should clearly define Consensus Guidance and its purpose."
+      - "The document should provide examples of how Consensus Guidance is applied."
+  - topic: Typographical Conventions
+    requirements:
+      - "The document should specify the correct spelling and capitalization for all terms and phrases."
+      - "A style guide should be included outlining specific conventions for formatting."
+  - topic: Recommendation Definitions
+    requirements:
+      - "Each recommendation should be clearly defined with its objective and expected outcome."
+      - "Definitions of key terms and concepts related to recommendations should be provided."
+  - topic: Title
+    requirements:
+      - "The document should have a consistent and descriptive title."
+      - "The title should accurately reflect the document's content."
+  - topic: Assessment Status
+    requirements:
+      - "The document should outline the process for assessing the effectiveness of recommendations."
+      - "A system for tracking the status of assessments should be included."
+  - topic: Automated
+    requirements:
+      - "The document should detail the automation processes involved in the assessment and reporting."
+      - "Security controls
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+..................................................................................................... 11 
+Manual.................................................................................................................................................... 11 
+Profile ......................................................................................................................................... 11 
+Description ................................................................................................................................ 11 
+Rationale Statement ................................................................................................................. 11 
+Impact Statement......................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document"
+    description: "Analyze the provided document for security-related information."
+  - step: "Identify security topics"
+    description: "Extract key security concepts and concerns from the document."
+  - step: "List requirements for each topic"
+    description: "Document specific security requirements derived from the identified topics."
+  - step: "Format as YAML"
+    description: "Present the requirements in a structured YAML format."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+ 
+Internal Only - General 
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.8.0 - 10-22-2025 
+ 
+ 
+Page 1 
+Internal Only - General 
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(legalnotices@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General 
+Table of Contents 
+Terms of Use .........................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: CIS Amazon Elastic
+  requirements:
+    - "CIS Amazon Elastic"
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+........................................................................................... 1 
+Table of Contents ........................................................................................................... 2 
+Overview ......................................................................................................................... 5 
+Important Usage Information .................................................................................................. 5 
+Key Stakeholders .................................................................................................................................. 5 
+Apply the Correct Version of a Benchmark ........................................................................................ 6 
+Exceptions .................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication Credentials
+  requirements:
+    - "Usernames and Passwords"
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+.................. 6 
+Exceptions ............................................................................................................................................. 6 
+Remediation ........................................................................................................................................... 7 
+Summary ................................................................................................................................................ 7 
+Target Technology Details ....................................................................................................... 8 
+Intended Audience ................................................................................................................... 8 
+Consensus Guidance ......................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: User Credentials
+  requirements:
+    - Usernames
+    - Passwords
+    - User IDs
+    - Authentication Tokens
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+..... 8 
+Consensus Guidance ............................................................................................................... 9 
+Typographical Conventions .................................................................................................. 10 
+Recommendation Definitions ..................................................................................... 11 
+Title .......................................................................................................................................... 11 
+Assessment Status ................................................................................................................ 11 
+Automated .....................................................................................................................
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Consensus Guidance
+  requirements:
+    - Consistent terminology across documents.
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Read the following security requirements document and identify all Key Data Elements (KDEs).
+Respond ONLY in YAML format:
+element1:
+  name: <element name>
+  requirements:
+    - <requirement 1>
+
+Document:
+......................................................................... 11 
+Manual .................................................................................................................................................. 11 
+Profile ...................................................................................................................................... 11 
+Description .............................................................................................................................. 11 
+Rationale Statement ............................................................................................................... 11 
+Impact Statement .................................................................................................................... 12 
+
+
+YAML Output:
+
+*Prompt Type*
+zero_shot
+
+*LLM Output*
+element1:
+  name: Manual
+  requirements:
+    - Validate manual data integrity
+    - Ensure data is securely stored and accessible
+    - Implement audit trails for manual operations
+    - Define procedures for data correction and approval
+  
+element2:
+  name: Profile
+  requirements:
+    - Define profile creation and management procedures
+    - Ensure profiles are securely protected
+    - Implement access controls for profiles
+    - Maintain a record of profile usage
+  
+element3:
+  name: Description
+  requirements:
+    - Provide clear and concise descriptions of data elements
+    - Ensure descriptions are accurate and up-to-date
+    - Document data lineage and transformation processes
+  
+element4:
+  name: Rationale Statement
+  requirements:
+    - Justify the need for data elements
+    - Demonstrate the importance of each element
+    - Support decision-making regarding data security
+  
+element5:
+  name: Impact Statement
+  requirements:
+    - Outline the potential consequences of data loss or compromise
+    - Identify stakeholders affected by data breaches
+    - Define security measures to mitigate risks
+
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+ 
+Internal Only - General 
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.8.0 - 10-22-2025 
+ 
+ 
+Page 1 
+Internal Only - General 
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(legalnotices@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General 
+Table of Contents 
+Terms of Use .........................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: CIS Benchmarks
+  requirements:
+    - Host CIS Benchmarks only on CIS-owned infrastructure.
+    - Ensure proper licensing and usage rights for all CIS Benchmarks.
+    - Comply with CIS Legal’s copyright usage guidelines.
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+........................................................................................... 1 
+Table of Contents ........................................................................................................... 2 
+Overview ......................................................................................................................... 5 
+Important Usage Information .................................................................................................. 5 
+Key Stakeholders .................................................................................................................................. 5 
+Apply the Correct Version of a Benchmark ........................................................................................ 6 
+Exceptions .................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+.................. 6 
+Exceptions ............................................................................................................................................. 6 
+Remediation ........................................................................................................................................... 7 
+Summary ................................................................................................................................................ 7 
+Target Technology Details ....................................................................................................... 8 
+Intended Audience ................................................................................................................... 8 
+Consensus Guidance ......................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+..... 8 
+Consensus Guidance ............................................................................................................... 9 
+Typographical Conventions .................................................................................................. 10 
+Recommendation Definitions ..................................................................................... 11 
+Title .......................................................................................................................................... 11 
+Assessment Status ................................................................................................................ 11 
+Automated .....................................................................................................................
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Identify Key Data Elements (KDEs) from this document.
+
+Example:
+element1:
+  name: User Authentication
+  requirements:
+    - Use MFA
+    - Expire sessions after 30 mins
+
+Document:
+......................................................................... 11 
+Manual .................................................................................................................................................. 11 
+Profile ...................................................................................................................................... 11 
+Description .............................................................................................................................. 11 
+Rationale Statement ............................................................................................................... 11 
+Impact Statement .................................................................................................................... 12 
+
+
+YAML Output:
+
+*Prompt Type*
+few_shot
+
+*LLM Output*
+```yaml
+element1:
+  name: User Profile
+  requirements:
+    - Data integrity
+    - Secure storage
+    - Auditability
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+ 
+Internal Only - General 
+CIS Amazon Elastic 
+Kubernetes Service (EKS) 
+Benchmark 
+v1.8.0 - 10-22-2025 
+ 
+ 
+Page 1 
+Internal Only - General 
+Terms of Use 
+Please see the below link for our current terms of use: 
+https://www.cisecurity.org/cis-securesuite/cis-securesuite-membership-terms-of-use/ 
+ 
+For information on referencing and/or citing CIS Benchmarks in 3rd party documentation 
+(including using portions of Benchmark Recommendations) please contact CIS Legal 
+(legalnotices@cisecurity.org) and request guidance on copyright usage.  
+NOTE:  It is NEVER acceptable to host a CIS Benchmark in ANY format (PDF, etc.) 
+on a 3rd party (non-CIS owned) site. 
+Page 2 
+Internal Only - General 
+Table of Contents 
+Terms of Use .........................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+security_requirements:
+  - topic: Terms of Use
+    requirements:
+      - description: "Users must adhere to the terms of use provided by CIS."
+        details:
+          - "Referencing and citing CIS Benchmarks in 3rd party documentation (including portions of Benchmark Recommendations) requires explicit permission from CIS Legal."
+          - "Hosting CIS Benchmarks in any format (PDF, etc.) on non-CIS owned sites is strictly prohibited."
+  - topic: CIS Benchmarks
+    requirements:
+      - description: "CIS Benchmarks provide valuable security guidance."
+        details:
+          - "Properly cite CIS Benchmarks in all documentation."
+          - "Avoid hosting CIS Benchmarks on non-CIS owned sites."
+  - topic: Amazon Elastic Kubernetes Service (EKS)
+    requirements:
+      - description: "EKS is a critical service for AWS."
+      - details:
+        - "Ensure EKS is configured securely and hardened."
+        - "Implement appropriate monitoring and logging for EKS instances."
+        - "Regularly update EKS software and security patches."
+  - topic: Benchmark
+    requirements:
+      - description: "CIS Benchmarks are
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+........................................................................................... 1 
+Table of Contents ........................................................................................................... 2 
+Overview ......................................................................................................................... 5 
+Important Usage Information .................................................................................................. 5 
+Key Stakeholders .................................................................................................................................. 5 
+Apply the Correct Version of a Benchmark ........................................................................................ 6 
+Exceptions .................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document."
+  - step: "Identify security topics."
+  - step: "List requirements for each topic."
+  - step: "Format as YAML."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+.................. 6 
+Exceptions ............................................................................................................................................. 6 
+Remediation ........................................................................................................................................... 7 
+Summary ................................................................................................................................................ 7 
+Target Technology Details ....................................................................................................... 8 
+Intended Audience ................................................................................................................... 8 
+Consensus Guidance ......................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document."
+    description: "Initial review of the document to understand its content and scope."
+  - step: "Identify security topics."
+    description: "Analyze the document for potential security concerns and areas requiring attention."
+  - step: "List requirements for each topic."
+    description: "Create a detailed list of requirements related to the identified security topics."
+  - step: "Format as YAML."
+    description: "Present the requirements in a structured YAML format."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+..... 8 
+Consensus Guidance ............................................................................................................... 9 
+Typographical Conventions .................................................................................................. 10 
+Recommendation Definitions ..................................................................................... 11 
+Title .......................................................................................................................................... 11 
+Assessment Status ................................................................................................................ 11 
+Automated .....................................................................................................................
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document"
+    description: "Initial assessment of the document's content."
+  - step: "Identify security topics"
+    description: "Analyze the document's content to determine key security concerns."
+  - step: "List requirements for each topic"
+    description: "Create a detailed list of security requirements derived from the identified topics."
+  - step: "Format as YAML"
+    description: "Present the requirements in a structured YAML format."
+```
+
+============================================================
+
+*LLM Name*
+google/gemma-3-1b-it
+
+*Prompt Used*
+You are a security requirements analyst.
+Step 1: Read the document.
+Step 2: Identify security topics.
+Step 3: List requirements for each topic.
+Step 4: Format as YAML.
+
+Document:
+......................................................................... 11 
+Manual .................................................................................................................................................. 11 
+Profile ...................................................................................................................................... 11 
+Description .............................................................................................................................. 11 
+Rationale Statement ............................................................................................................... 11 
+Impact Statement .................................................................................................................... 12 
+
+
+YAML Output:
+
+*Prompt Type*
+chain_of_thought
+
+*LLM Output*
+```yaml
+steps:
+  - step: "Read the document."
+    description: "Analyze the provided document to understand its content and key information."
+  - step: "Identify security topics."
+    description: "Extract potential security risks, vulnerabilities, and areas requiring protection based on the document's content."
+  - step: "List requirements for each topic."
+    description: "Create a detailed list of security requirements, specifying what needs to be implemented to mitigate identified risks and address the extracted topics."
+  - step: "Format as YAML."
+    description: "Present the requirements in a structured YAML format, ensuring clarity, consistency, and machine readability."
+
+```
+
+============================================================
+

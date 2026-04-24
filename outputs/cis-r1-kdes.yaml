@@ -1,0 +1,111 @@
+element1:
+- requirements:
+  - description: The CIS Security Suite membership terms of use must be adhered to.
+    details: Users must agree to the terms of service, including data privacy and
+      security policies.
+  topic: CIS Security Suite Membership Terms of Use
+- requirements:
+  - description: The EKS service must be secured against unauthorized access and malicious
+      activity.
+    details: Implement network segmentation, role-based access control (RBAC), and
+      regular security audits.
+  - requirements:
+    - description: The Kubernetes Benchmark must be implemented with security best
+        practices.
+    - details: This includes secure container image scanning, vulnerability management,
+        and network policies.
+    topic: Kubernetes Benchmark
+  topic: EKS Service Security
+- requirements:
+  - description: The release version v1.2.0 must be thoroughly reviewed for security
+      vulnerabilities.
+  - details: Conduct security testing, including penetration testing and static/dynamic
+      analysis, to identify and remediate any issues.
+  topic: v1.2.0 - 11-23-2022
+element2:
+  requirements:
+  - requirements:
+    - Description: Ensure consistent use of fonts, sizes, and spacing.
+      Details: Maintain a standardized typographic style for all documents.
+      Priority: High
+    topic: Typographical Conventions
+  - requirements:
+    - Description: Clearly define the meaning and scope of each recommendation.
+      Details: Ensure recommendations are unambiguous and easily understood.
+      Priority: Medium
+    topic: Recommendation Definitions
+element3:
+- step: Read the document.
+- step: Identify security topics.
+  topics:
+  - Manual
+  - Profile
+  - Description
+  - Rationale Statement
+  - Impact Statement
+- requirements:
+  - Manual: The manual must accurately and consistently reflect current security policies
+      and procedures.
+  - Profile: The profile must securely store and manage user data, adhering to privacy
+      regulations.
+  - Description: The description must clearly communicate the purpose and scope of
+      the system, including security considerations.
+  - Rationale Statement: The rationale statement should justify the need for specific
+      security measures and demonstrate compliance with relevant standards.
+  - Impact Statement: Failure to address the impact of security vulnerabilities could
+      result in data loss, system disruption, and reputational damage.
+  step: List requirements for each topic.
+- output:
+    content: "steps:\n  - step: Read the document.\n  - step: Identify security topics.\n\
+      \    topics:\n      - Manual\n      - Profile\n      - Description\n      -\
+      \ Rationale Statement\n      - Impact Statement"
+    type: YAML
+  step: Format as YAML.
+element4:
+  requirements:
+  - description: Regularly review and update audit procedures to reflect changes in
+      business processes and security risks.
+    details: Ensure procedures are comprehensive, measurable, and aligned with organizational
+      objectives.
+  - description: Document all audit findings and remediation actions.
+    details: Maintain a centralized repository of audit results for tracking and analysis.
+  - description: Establish a process for ongoing monitoring of audit findings.
+    details: Implement automated alerts for critical findings.
+element5:
+  requirements:
+  - description: Develop and implement remediation plans for identified vulnerabilities.
+    details: Prioritize remediation based on risk level and impact.
+  - description: Track the progress of remediation efforts and ensure timely completion.
+    details: Assign responsibility for remediation and monitor performance.
+  - description: Document remediation steps taken and results achieved.
+    details: Maintain a record of corrective actions taken to address vulnerabilities.
+element6:
+  requirements:
+  - description: Define and enforce consistent default values for critical system
+      settings.
+    details: Minimize the potential for unintended consequences when default values
+      are used.
+element7:
+- requirements:
+  - Description: Ensure accurate and consistent profile definitions across the system.
+    Details: Verify the definitions are validated, documented, and easily updated.
+    Priority: High
+  topic: Profile Definitions
+- requirements:
+  - Description: Document all stakeholders involved in the system's development and
+      deployment.
+    Details: Include contact information and roles.
+    Priority: Medium
+  topic: Acknowledgements
+- requirements:
+  - Description: Provide recommendations for security enhancements and best practices.
+  - Details: Focus on areas like vulnerability management, threat modeling, and security
+      policies.
+  - Priority: High
+  topic: Recommendations
+- requirements:
+  - control_plane_components:
+    - Control Plane Configuration: The system must allow authorized users to configure
+        the control plane components.
+      Details: Define access controls and audit trails for configuration changes
+  topic: Control Plane Components

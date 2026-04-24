@@ -1,0 +1,11 @@
+unparsed_output,ABSENT-IN-cis-r4-kdes,PRESENT-IN-cis-r3-kdes,requirements:
+  - topic: Consensus Guidance
+    requirements:
+      - "The document should clearly define Consensus Guidance and its purpose."
+      - "The document should provide examples of how Cons
+unparsed_output,ABSENT-IN-cis-r3-kdes,PRESENT-IN-cis-r4-kdes,security_requirements:
+  - topic: Terms of Use
+    requirements:
+      - description: "Users must adhere to the terms of use provided by CIS."
+        details:
+          - "Referencing and citing CIS 
